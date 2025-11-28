@@ -4,6 +4,19 @@
   <extends>com.obsproject.Studio</extends>
   <name>Wayland Hotkeys</name>
   <summary>Plugin for OBS Studio adding global shortcuts for Wayland Environments</summary>
+  <description>
+    <p>Adds global shortcuts support to desktop environments that implement the global shortcuts portal</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/leia-uwu/obs-wayland-hotkeys/refs/heads/master/screenshots/1.png</image>
+      <caption>OBS Open with the KDE Plasma shortcuts portal dialog asking to register the shortcuts</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/leia-uwu/obs-wayland-hotkeys/refs/heads/master/screenshots/2.png</image>
+      <caption>OBS Shortcuts on KDE Plasma system settings Shortcuts page</caption>
+    </screenshot>
+  </screenshots>
   <developer id="io.github.leia-uwu">
     <name>Leia</name>
   </developer>
@@ -14,7 +27,9 @@
   <project_license>GPL-2.0</project_license>
   <releases>
     <release version="1.0.0" date="2025-10-27">
-      <description><p>Initial release.</p></description>
+      <description>
+        <p>Initial release.</p>
+      </description>
     </release>
   </releases>
 </component>
