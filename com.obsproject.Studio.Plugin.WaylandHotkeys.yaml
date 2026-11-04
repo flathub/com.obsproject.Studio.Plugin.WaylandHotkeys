@@ -23,6 +23,6 @@ modules:
         x-checker-data:
           type: git
           is-main-source: true
-          tag-pattern: ^([\d.]+)$
+          tag-pattern: ^v([\d.]+)$
       - type: file
         path: com.obsproject.Studio.Plugin.WaylandHotkeys.metainfo.xml
